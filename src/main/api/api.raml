@@ -1,0 +1,15 @@
+#%RAML 0.8
+title: Sample API
+
+/{library}/{outq}:
+  get:
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              {
+              "library": "DKUZNETSOV",
+              "outq": "DKUZNETSOV",
+              "numberOfSpools" : 12
+              }
